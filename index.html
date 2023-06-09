@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>山田太郎のポートフォリオサイト</title>
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="yamada.png" alt="" />
+      <h1>佐藤文胤</h1>
+      <h2>webデザイナー見習い</h2>
+      <p>"dotinsatall"で学んだ事を活かして模写コーディング</p>
+    </header>
+
+    <main>
+      <div class="work-1">
+        <h1>WORKS</h1>
+        <img src="work-1.png" alt="" width="480" height="280" />
+      </div>
+      <div class="brave">
+        <h2>勇者!</h2>
+        <p>魔王討伐を夢見て日々鍛錬に勤しんでおります。</p>
+      </div>
+
+      <div class="work-2">
+        <img src="work-2.png" alt="" width="480height" ="280" />
+      </div>
+      <div class="treasure-box">
+        <h2>宝箱を見つけた！</h2>
+        <p>
+          冒険を続けるためにも先立つものが必要だ。
+          <br />
+          勇者の特権をフル活用し、村人のタンスを漁りツボを割り、
+          <br />
+          ようやくお宝を見つけることが出来た。
+        </p>
+      </div>
+      <div class="work-3">
+        <img src="work-3.png" alt="" width="480" height="240" />
+      </div>
+      <div class="item">
+        <h2>村人からの贈り物</h2>
+        <p>魔王討伐の為、頑張る勇者にファンからプレゼントが届いた！</p>
+      </div>
+      <form>
+        <div class="present">
+          <fieldset>
+            <legend>ファンからの贈り物</legend>
+            <label><input type="radio" name="item" id="" />魔人の金槌</label>
+            <label><input type="radio" name="item" id="" />祝福の杖</label>
+            <label><input type="radio" name="item" id="" />パルプンテ</label>
+            <label
+              ><input type="radio" name="item" id="" />せいきゅうしょ</label
+            >
+            <br />
+            <label for=""> これ以上、家をあらなさにで下さい... </label>
+            <div class="name">
+              <input type="text" placeholder="例）田中太郎" />
+              <label for="">より。</label>
+            </div>
+          </fieldset>
+          <div class="button">
+            <button onclick="confirm('本当にそれでいいの？')">送信</button>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <div class="sns">
+        <img src="sns-1.png" alt="" />
+        <img src="sns-2.png" alt="" />
+      </div>
+      <div class="c">
+        <small>(c)bunchans.com</small>
+      </div>
+    </footer>
+  </body>
+</html>

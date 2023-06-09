@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+body {
+  /* background-color: pink; */
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  margin: 0;
+}
+
+header {
+  margin: auto 10px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+header img {
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 120px;
+}
+header h1 {
+  margin: 10px;
+}
+header h2 {
+  margin: 0px;
+}
+header p {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+main h1 {
+  text-align: center;
+}
+.work-1 {
+  width: 480px;
+  margin: 4px auto;
+  text-align: left;
+}
+.brave {
+  border: solid 1px;
+  padding-left: 10px;
+  width: 470px;
+  margin: 4px auto;
+  text-align: left;
+}
+.work-2 {
+  width: 480px;
+  margin: 64px auto 4px;
+  text-align: left;
+}
+.treasure-box {
+  border: solid 1px;
+  padding-left: 10px;
+  width: 470px;
+  margin: 4px auto;
+  text-align: left;
+}
+.work-3 {
+  width: 480px;
+  margin: 64px auto 4px;
+  text-align: left;
+}
+.item {
+  border: solid 1px;
+  padding-left: 10px;
+  width: 470px;
+  margin: 4px auto 5px;
+  text-align: left;
+}
+.present {
+  width: 480px;
+  margin: 4px auto;
+}
+.button {
+  text-align: right;
+  margin: 5px;
+}
+.name {
+  text-align: right;
+  margin: 5px;
+}
+
+footer {
+  text-align: center;
+}
+.sns {
+  margin: 30px auto;
+}
+.c {
+  margin-bottom: 20px;
+}
